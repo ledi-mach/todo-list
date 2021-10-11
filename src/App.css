@@ -1,0 +1,92 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+.App{
+  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  height: 100vh;
+  padding: 10vh;
+}
+.wrapper{
+  background-color: #062c36;
+  width: 450px;
+  margin: auto;
+  min-height: 80vh;
+  padding: 3%;
+  border-radius: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+}
+.text{
+  outline:none;
+  width: 75%;
+  padding:13px;
+  margin-right: 15px;
+  font-size: 20px;
+  color:#ccc;
+  background-color: #000000;
+  border:1px solid #c89666;
+  border-radius: 10px;
+}
+.add-btn{
+  width: 12%;
+  padding:13px 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  border:none;
+  cursor:pointer;
+  background-color: #f1af71;
+  text-align: center;
+}
+.allTasks{
+  height: 50vh;
+  margin-top: 20px;
+  overflow: auto;
+  text-align: center;
+}
+.listItem, .crossText{
+  border:1px solid #ccc;
+  border-radius: 10px;
+  padding:10px;
+  max-height: 25px;
+  color:#ccc;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0px;
+  text-align: start;
+}
+.crossText{
+  text-decoration: line-through;
+  color: rgba(144, 238, 144, 0.699);
+}
+.spanIcons{
+  width: 20%;
+  margin-left: 83%;
+  margin-top: -20px;
+  text-align: center;
+}
+.completed, .delete{
+  width: 28px;
+  height: 28px;
+  margin-left: 10%;
+}
+.completed{
+  color:#db575d;
+}
+.delete{
+  color:#c9c94d;
+}
+.noTasks{
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom:0;
+  text-align: center;
+  color: #ccc;
+
+}
